@@ -17,8 +17,10 @@
 }
 
 .intro {
-  padding: 150px 300px;
+  height: 800px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro__img {
