@@ -1,0 +1,34 @@
+.header {
+  height: 5vh;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.header__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header__list {
+  display: inline;
+  margin-left: 10px;
+}
+
+.header__list > a {
+  text-decoration: none;
+  color: black
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project__img {
+  margin: 5px 5px;
+  height: 45vh;
+  border: solid gray 1px;
+}
